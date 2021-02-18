@@ -3,7 +3,7 @@ import numpy as np
 import pytesseract
 
 #indicar donde esta almacenado tesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'tesseract'
 
 #funcion para orderar los vertices y asi poder hacer la transformacion de perspectiva sin cuidar el orden
 def ordenar_puntos(puntos):
